@@ -1,0 +1,83 @@
+
+
+/* style de ma carte */
+#africa-Map{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.map_image{
+  width: 50%;
+  float: left;
+}
+.map_image path {
+    fill: #5dd9e4;
+    stroke: #FFF;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+  }
+  .map_image path:hover {
+    fill: #d86030;
+    cursor: pointer;
+  }
+  .map_pays{
+      float: right;
+      width: 50%;
+  }
+  .map_pays a{
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+#info-box  {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 2px solid #BF0A30;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+ li a{
+  position: relative;
+  text-align: right;
+} 
+/* fin style de ma carte */
+/* responsive : mettre la page à  60% de la largeur total */
+.margetop{
+  margin-top: 60px;
+}
+/* style de ma page login */
+body{
+  background-image: url(../images/bg1.jpg);
+  background-size:cover;
+  background-position: left;
+  /* background-color: rgb(240, 238, 238); */
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 20px 0;
+	font-weight: bold;
+	color: #666;
+}
+
+.input-container {
+	position: relative;
+}
+
+.etoile {
+	position: absolute;
+	font-size: 25px;
+	right: 7px;
+	top: 5px;
+	color: #f21a12;
+}
