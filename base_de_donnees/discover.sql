@@ -1,4 +1,4 @@
-
+-- database
 DROP DATABASE IF EXISTS discover;
 CREATE DATABASE IF NOT EXISTS discover;
 
